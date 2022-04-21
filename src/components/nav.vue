@@ -2,48 +2,14 @@
   <div class="nav-main">
     <div class="nav-list">
       <div class="nav-item">
-        <router-link to="/scene" class="nav-block" active-class="selected">
-          <span>场景切换</span>
-        </router-link>
-        <router-link to="/video" class="nav-block" active-class="selected">
-          <span>漫游路径</span>
-        </router-link>
-        <router-link to="/global" class="nav-block" active-class="selected">
-          <span>全局配置</span>
-        </router-link>
-        <router-link to="/weather" class="nav-block" active-class="selected">
-          <span>天气控制</span>
-        </router-link>
+        
         <router-link to="/date" class="nav-block" active-class="selected">
           <span>日期时间</span>
-        </router-link>
-        <router-link to="/floor" class="nav-block" active-class="selected">
-          <span>楼层展示</span>
-        </router-link>
-        <router-link to="/state" class="nav-block" active-class="selected">
-          <span>状态演示</span>
-        </router-link>
-        <router-link to="/overlay" class="nav-block" active-class="selected">
-          <span>覆盖物</span>
-        </router-link>
-        <router-link to="/monitor" class="nav-block" active-class="selected">
-          <span>监控设备</span>
-        </router-link>
-        <router-link to="/lamp" class="nav-block" active-class="selected">
-          <span>灯光控制</span>
-        </router-link>
-        <router-link to="/airConditioner" class="nav-block" active-class="selected">
-          <span>高级定制</span>
-        </router-link>
-        <router-link to="/customize" class="nav-block" active-class="selected">
-          <span>高级定制</span>
         </router-link>
       </div>
     </div>
   </div>
-
 </template>
-
 <script lang="ts">
   import {
     Options,
